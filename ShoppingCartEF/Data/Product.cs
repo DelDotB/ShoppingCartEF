@@ -9,7 +9,7 @@ namespace ShoppingCartEF.Data
 	{
 		public Product()
 		{
-
+			this.OrderDetails = new HashSet<OrderDetail>();
 		}
 
 		public int Id { get; set; }
