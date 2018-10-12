@@ -12,7 +12,7 @@ namespace ShoppingCartEF.Controllers
 	{
 		public IActionResult Index()
 		{
-			return View();
+			return RedirectToAction("Init", "Products");
 		}
 
 		public IActionResult About()

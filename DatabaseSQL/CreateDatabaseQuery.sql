@@ -1,4 +1,6 @@
-﻿CREATE TABLE [dbo].[Product] (
+﻿USE ShoppingCart;
+
+CREATE TABLE [dbo].[Product] (
 	[Id] int identity (1, 1) not null,
 	[Name] varchar(255) NULL,
 	[Price] varchar(255) NULL,

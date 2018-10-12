@@ -15,7 +15,6 @@ namespace ShoppingCartEF.Data
 
 		public DbSet<Product> Product { get; set; }
 		public virtual DbSet<Order> Order { get; set; }
-
 		public virtual DbSet<OrderDetail> OrderDetails { get; set; }
 	}
 
